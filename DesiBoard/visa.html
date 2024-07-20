@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visa Support - Desi Board</title>
+    <link rel="stylesheet" href="css/visa.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Desi Board</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="emergency.html">Emergency Support</a></li>
+          <li><a href="legal.html">Legal Support</a></li>
+          <li><a href="health.html">Health Support</a></li>
+          <li><a href="card.html">Card Support</a></li>
+          <li><a href="visa.html">Visa Support</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="visa">
+        <div class="section-container">
+          <div class="visa-info">
+            <h2>Visa Types and Details</h2>
+            <p>
+              Navigating visa requirements and processes can be complex. At Desi
+              Board, we provide comprehensive support for various types of U.S.
+              visas. Below, you'll find detailed information about different
+              visa categories, their requirements, and links to official
+              resources for further assistance.
+            </p>
+
+            <div class="visa-type">
+              <h3>HTB (H-1B) Visa</h3>
+              <p>
+                The H-1B visa is a non-immigrant visa that allows U.S. companies
+                to employ foreign workers in specialty occupations. This visa is
+                valid for up to three years and can be extended for a total of
+                six years.
+              </p>
+              <p>
+                Key requirements for the H-1B visa include having a job offer
+                from a U.S. employer, possessing specialized knowledge or a
+                bachelor's degree or higher, and meeting the prevailing wage
+                requirement.
+              </p>
+              <p>
+                For more details and application processes, visit the
+                <a
+                  href="https://www.uscis.gov/h-1b-specialty-occupations"
+                  target="_blank"
+                  >USCIS H-1B page</a
+                >.
+              </p>
+            </div>
+
+            <div class="visa-type">
+              <h3>L-1 Visa</h3>
+              <p>
+                The L-1 visa is designed for intra-company transferees who work
+                in managerial positions or have specialized knowledge. It is
+                available for employees of multinational companies who are being
+                transferred to a U.S. office.
+              </p>
+              <p>
+                There are two types of L-1 visas: L-1A for managers and
+                executives, and L-1B for employees with specialized knowledge.
+                The L-1A visa is valid for up to seven years, while the L-1B
+                visa is valid for up to five years.
+              </p>
+              <p>
+                For more information, visit the
+                <a
+                  href="https://www.uscis.gov/l-1a-l-1b-intracompany-transferees"
+                  target="_blank"
+                  >USCIS L-1 page</a
+                >.
+              </p>
+            </div>
+
+            <div class="visa-type">
+              <h3>B-1/B-2 Visa</h3>
+              <p>
+                The B-1 visa is for individuals traveling to the U.S. for
+                business purposes, while the B-2 visa is for tourists. Both
+                visas are typically issued for a duration of six months and may
+                be extended.
+              </p>
+              <p>
+                Applicants must demonstrate that they intend to return to their
+                home country after their stay and have sufficient funds to cover
+                their expenses while in the U.S.
+              </p>
+              <p>
+                For additional details, visit the
+                <a
+                  href="https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+                  target="_blank"
+                  >U.S. Department of State B-1/B-2 page</a
+                >.
+              </p>
+            </div>
+
+            <div class="visa-type">
+              <h3>F-1 Visa</h3>
+              <p>
+                The F-1 visa is for foreign students who wish to study in the
+                U.S. at an accredited institution. This visa allows students to
+                remain in the U.S. for the duration of their studies and can
+                include optional practical training (OPT) for up to 12 months.
+              </p>
+              <p>
+                Key requirements include acceptance into a SEVP-certified
+                institution, proof of sufficient financial resources, and intent
+                to return to the home country after completing studies.
+              </p>
+              <p>
+                For more information, visit the
+                <a href="https://www.ice.gov/sevis" target="_blank"
+                  >SEVIS page</a
+                >
+                and
+                <a
+                  href="https://www.uscis.gov/visit-united-states/extend-your-stay/f-1-student-visa"
+                  target="_blank"
+                  >USCIS F-1 page</a
+                >.
+              </p>
+            </div>
+
+            <div class="visa-type">
+              <h3>STEM OPT</h3>
+              <p>
+                STEM OPT is an extension of the F-1 visa for students who have
+                completed a degree in a STEM (Science, Technology, Engineering,
+                or Mathematics) field. This extension allows students to work in
+                the U.S. for an additional 24 months beyond the initial 12
+                months of OPT.
+              </p>
+              <p>
+                Requirements include having a job directly related to the
+                student's field of study and working for an employer enrolled in
+                E-Verify.
+              </p>
+              <p>
+                For more details, visit the
+                <a href="https://www.ice.gov/sevis/stem-opt" target="_blank"
+                  >SEVIS STEM OPT page</a
+                >.
+              </p>
+            </div>
+          </div>
+
+          <div class="visa-form">
+            <h3>Visa Support Form</h3>
+            <form id="visaForm">
+              <label for="visaType">Type of Visa:</label>
+              <select id="visaType" name="visaType">
+                <option value="htb">H-1B</option>
+                <option value="l1">L-1</option>
+                <option value="b1b2">B-1/B-2</option>
+                <option value="f1">F-1</option>
+                <option value="stem-opt">STEM OPT</option>
+              </select>
+              <label for="issueDetails">Details:</label>
+              <textarea id="issueDetails" name="issueDetails"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Contact us at support@gmail.com or call 123-456-7890</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

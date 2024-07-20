@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Support - Desi Board</title>
+    <link rel="stylesheet" href="css/health.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Desi Board</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="emergency.html">Emergency Support</a></li>
+          <li><a href="legal.html">Legal Support</a></li>
+          <li><a href="health.html">Health Support</a></li>
+          <li><a href="card.html">Card Support</a></li>
+          <li><a href="visa.html">Visa Support</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="health">
+        <div class="section-container">
+          <div class="health-info">
+            <h2>How We Assist with Health Issues</h2>
+            <p>
+              At Desi Board, we are committed to supporting you with various
+              health-related challenges you may face while living in the US. Our
+              health support services are designed to help you navigate the
+              healthcare system, find medical professionals, understand
+              insurance and co-payments, and receive the care you need.
+            </p>
+            <p>
+              Whether you need assistance with finding doctors, understanding
+              your medical benefits, or managing healthcare costs, our team is
+              here to provide guidance and resources tailored to your needs.
+            </p>
+          </div>
+          <div class="health-form">
+            <h3>Health Support Form</h3>
+            <form id="healthForm">
+              <label for="issueType">Type of Health Issue:</label>
+              <select id="issueType" name="issueType">
+                <option value="doctor">Finding a Doctor</option>
+                <option value="insurance">Insurance and Co-payments</option>
+                <option value="treatment">Insurance benefits</option>
+              </select>
+              <label for="issueDetails">Details:</label>
+              <textarea id="issueDetails" name="issueDetails"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Contact us at support@gmail.com or call 123-456-7890</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

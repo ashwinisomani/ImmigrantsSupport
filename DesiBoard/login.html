@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Desi Board</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Desi Board</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="emergency.html">Emergency Support</a></li>
+          <li><a href="legal.html">Legal Support</a></li>
+          <li><a href="health.html">Health Support</a></li>
+          <li><a href="card.html">Card Support</a></li>
+          <li><a href="visa.html">Visa Support</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="form-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <button type="submit">Login</button>
+          <button type="button" onclick="window.location.href='signup.html'">
+            Sign Up
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>Contact us at support@gmail.com or call 123-456-7890</p>
+    </footer>
+  </body>
+</html>
